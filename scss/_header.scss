@@ -1,0 +1,40 @@
+.header_grid {
+    display: grid;
+    grid-template-areas: "logo navi" "fondogrid fondogrid";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 80px 200px;
+}
+
+.logo {
+    grid-area: logo;
+    z-index: 1;
+}
+
+.navi {
+    grid-area: navi;
+}
+
+.fondogrid {
+    grid-area: fondogrid;
+}
+
+.imgFondo {
+    background-image: url("../assets/img/fondotop.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 61px;
+}
+
+.tituloImg {
+    color: goldenrod;
+}
+
+.transition {
+    height: 150px;
+    transition: all 2s;
+    .transition:hover {
+        height: 170px;
+    }
+}

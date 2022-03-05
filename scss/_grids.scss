@@ -1,0 +1,121 @@
+@media screen and (max-width:768px) {
+    h1 {
+        color: gold;
+    }
+    .cuadro {
+        display: grid;
+        grid-template-areas: "encabezado" "oro" "textOro" "plata" "textplata" "centenario" "textCente" "onza" "textOnza" "monedas" "textMon";
+        grid-template-columns: auto;
+        grid-template-rows: repeat(11, auto);
+        text-align: center;
+    }
+    .encabezado {
+        grid-area: encabezado;
+        text-align: center;
+    }
+    .oro {
+        grid-area: oro;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .plata {
+        grid-area: plata;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centenario {
+        grid-area: centenario;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .onza {
+        grid-area: onza;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textOro {
+        grid-area: textOro;
+        padding: 15px;
+    }
+    .textplata {
+        grid-area: textplata;
+        padding: 15px;
+    }
+    .textOnza {
+        grid-area: textOnza;
+        padding: 15px;
+    }
+    .textCente {
+        grid-area: textCente;
+        padding: 15px;
+    }
+    .monedas {
+        grid-area: monedas;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textMon {
+        grid-area: textMon;
+        padding: 15px;
+    }
+}
+
+
+/* Media query desktop */
+
+@media screen and (min-width:769px) {
+    .cuadro {
+        display: grid;
+        grid-template-areas: "encabezado encabezado" "oro plata" "textOro textplata" "centenario onza" "textCente textOnza" "monedas monedas" "textMon textMon";
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(7, auto);
+        text-align: center;
+    }
+    .encabezado {
+        grid-area: encabezado;
+        text-align: center;
+    }
+    .oro {
+        grid-area: oro;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .plata {
+        grid-area: plata;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .centenario {
+        grid-area: centenario;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .onza {
+        grid-area: onza;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textOro {
+        grid-area: textOro;
+        padding-bottom: 15px;
+    }
+    .textplata {
+        grid-area: textplata;
+        padding-bottom: 15px;
+    }
+    .textOnza {
+        grid-area: textOnza;
+    }
+    .textCente {
+        grid-area: textCente;
+    }
+    .monedas {
+        grid-area: monedas;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .textMon {
+        grid-area: textMon;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Quintessential', cursive;
+}
+
+body {
+    /* .parallax */
+    background-image: url("../assets/img/dark.jpg");
+    background-attachment: fixed;
+    /* el secreto del paralax */
+    background-position: center;
+    /* como va estar ubicado */
+    background-repeat: no-repeat;
+    /* si es necesario repetir la imagen */
+    background-size: cover;
+    /* tamaño de la imagen  */
+    margin-bottom: 50px;
+    /* propiedad de box modelin  */
+}
+
+h1 {
+    color: $colorSecundario;
+}
+
+h2 {
+    color: $colorSecundario;
+}
+
+h3 {
+    color: $colorSecundario;
+}
+
+.grid_body {
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+header {
+    grid-area: header;
+    padding: 10px;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+}

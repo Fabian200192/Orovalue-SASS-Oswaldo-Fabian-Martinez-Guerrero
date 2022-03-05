@@ -58,11 +58,11 @@
 
 table {
     margin: auto;
-    color: goldenrod;
+    color: $colorPrimario;
 }
 
 .form {
-    color: goldenrod;
+    color: $colorPrimario;
     input {
         margin: 10px;
         &:hover {

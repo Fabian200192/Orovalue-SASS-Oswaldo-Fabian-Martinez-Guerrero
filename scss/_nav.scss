@@ -8,11 +8,11 @@ nav {
             list-style-type: none;
             padding: 10px;
             a {
-                color: silver;
+                color: $colorTerciario;
                 text-decoration: none;
                 &:hover {
-                    background: goldenrod;
-                    color: white;
+                    background: $colorPrimario;
+                    color: $colorSecundario;
                     padding: 7px 11px 7px 10px;
                 }
             }

@@ -1,0 +1,18 @@
+// Clase base para los inputs en formulario
+input {
+    margin: 10px;
+    &:hover {
+        height: 30px;
+        width: 200px;
+        transition: all 2s;
+    }
+}
+
+// Exteder la clase base
+.btn_formulario {
+    @extend input;
+    background-color: goldenrod;
+    color: white;
+    width: 100px;
+    border: solid silver;
+}

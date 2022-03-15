@@ -63,12 +63,4 @@ table {
 
 .form {
     color: $colorPrimario;
-    input {
-        margin: 10px;
-        &:hover {
-            height: 30px;
-            width: 200px;
-            transition: all 2s;
-        }
-    }
 }

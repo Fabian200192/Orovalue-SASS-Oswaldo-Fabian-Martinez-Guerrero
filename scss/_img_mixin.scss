@@ -1,0 +1,9 @@
+// Mixin con parametros
+@mixin sizeredes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.img_size_redes {
+    @include sizeredes(110px, 110px)
+}

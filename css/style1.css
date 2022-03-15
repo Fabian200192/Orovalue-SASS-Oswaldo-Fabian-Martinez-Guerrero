@@ -242,13 +242,30 @@ table {
 
 .form {
   color: goldenrod; }
-  .form input {
-    margin: 10px; }
-    .form input:hover {
-      height: 30px;
-      width: 200px;
-      transition: all 2s; }
 
 .navFooter {
   display: flex;
   justify-content: center; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+input, .btn_formulario {
+  margin: 10px; }
+  input:hover, .btn_formulario:hover {
+    height: 30px;
+    width: 200px;
+    transition: all 2s; }
+
+.btn_formulario {
+  background-color: goldenrod;
+  color: white;
+  width: 100px;
+  border: solid silver; }
+
+.img_size_redes {
+  height: 110px;
+  width: 110px; }

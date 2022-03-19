@@ -169,7 +169,7 @@ footer {
 .transition {
   height: 150px;
   transition: all 2s; }
-  .transition .transition:hover {
+  .transition:hover {
     height: 170px; }
 
 nav ul {

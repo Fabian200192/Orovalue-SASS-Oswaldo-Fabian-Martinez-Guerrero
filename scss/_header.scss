@@ -34,7 +34,7 @@
 .transition {
     height: 150px;
     transition: all 2s;
-    .transition:hover {
+    &:hover {
         height: 170px;
     }
 }
